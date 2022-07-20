@@ -18,6 +18,7 @@ export default {
 <style>
 #app {
   overflow-x: hidden;
+  height: 100vh;
 }
 body {
   background-color: black;
