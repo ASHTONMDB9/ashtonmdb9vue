@@ -34,11 +34,10 @@
     </div>
     <div class="col">
         <div class="card text-light bg-black mb-4 mt-2">
-  <div class="card-header text-center">GITHUB</div>
+  <div class="card-header text-center">MySQL</div>
   <div class="card-body">
-    <h5 class="card-title text-center"><i class="fa-brands fa-github"></i></h5>
-    <p class="card-text text-center">GitHub is a Git repository hosting service. 
-      While Git is a command line tool, GitHub provides a Web-based graphical interface.</p>
+    <h5 class="card-title text-center"><i class="fa-solid fa-database"></i></h5>
+    <p class="card-text text-center">MySQL is a relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL).</p>
   </div>
 </div>
     </div>
@@ -90,13 +89,13 @@
 </div>
     <div class="col">
     <div class="ui-widgets">
-    <div class="ui-values">80%</div>
+    <div class="ui-values">75%</div>
     <div class="ui-labels">Problem-solving</div>
     </div>
 </div>
     <div class="col">
     <div class="ui-widgets">
-    <div class="ui-values">75%</div>
+    <div class="ui-values">80%</div>
     <div class="ui-labels">Creativity</div>
     </div>
 </div>
@@ -121,7 +120,7 @@ export default {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 35px;
-  color: #fff;
+  color: white;
 }
 .card:hover {
     box-shadow: -5px -5px 10px 5px blue, 5px 5px 10px 5px blue;
@@ -143,7 +142,7 @@ h5 i {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 40px;
-  color: #fff;
+  color: white;
   text-decoration: underline 3px;
   text-decoration-color: blue;
 }
@@ -153,7 +152,7 @@ h5 i {
     width: 10rem;
     height: 10rem;
     border-radius: 9rem;
-    margin-left: 50px;
+    margin-left: 70px;
     border: 1.2rem solid blue;
     box-shadow: inset 0 0 7px white;
     border-left-color: darkblue;

@@ -42,7 +42,13 @@ export default {
 /*Navbar*/
 
 .navbar-nav {
-    margin-left: 34rem;
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+transition: smooth;
+align-items: center;
+}
+.navbar-nav li {
+  justify-content: center;
 }
 </style>

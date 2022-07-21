@@ -3,7 +3,7 @@
 <div class="col-md-6">
 <div class="container">
     <div><h1>Hi, my name is</h1>
-    <h1>ASHTON.ABRAHAMS</h1></div>
+    <h1>ASHTON</h1></div>
     </div>
     <h2 class="text mt-1">Aspiring Full-Stack Developer</h2>
     <h3 class="text mt-1">Nothing is <span class="impossible"><span>'I</span>M<span>POSSIBLE'</span></span></h3>
@@ -38,13 +38,14 @@ export default {
   animation: type 2s steps(40,end) forwards;
 }
 .container h1:nth-child(2) {
+  display: flex;
+  justify-content: center;
   opacity: 0;
   font-family: sans-serif;
   margin: 0 auto auto auto;
   background: linear-gradient( black, white, black);
   font-weight: 800;
-  font-size: 50px;  
-  width: 575px;
+  font-size: 50px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   overflow: hidden;

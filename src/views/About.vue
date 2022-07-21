@@ -47,7 +47,7 @@
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 35px;
-  color: #fff;
+  color: white;
 }
 .container {
   margin-top: 100px;
@@ -56,7 +56,7 @@
   margin-top: -100px;
 }
 .about {
-  color: #fff;
+  color: white;
   text-decoration: underline;
   text-decoration-color: blue;
   font-size: 40px;
