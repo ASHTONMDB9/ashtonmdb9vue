@@ -1,4 +1,6 @@
 <template>
+<div class="row">
+<div class="col-md-6">
 <div id="body" v-for="project of projects" :key="project.id">
       <div class="card" style="width: 18rem;">
   <img v-bind:src="project.image" alt="" />
@@ -10,6 +12,8 @@
     <a href="#" class="card-link">View Code</a>
     <a href="#" class="card-link">View Project</a>
   </div>
+</div>
+</div>
 </div>
 </div>
 </template>
@@ -97,7 +101,7 @@ export default {
 }
 </script>
 <style scoped>
-.card {
+#body {
   background-color: #000000;
   display: flex;
   flex-direction: row;
