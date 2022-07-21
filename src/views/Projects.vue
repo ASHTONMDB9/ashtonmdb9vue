@@ -1,8 +1,10 @@
 <template>
-<div class="d-flex">
+<h1 id="project">Projects</h1>
+
+<div class="container-fluid">
 <div v-for="project of projects" :key="project.id">
-<div id="list" class="card mt-2 mb-2 ms-2 me-2 shadow-lg p-3 rounded" style="width: 21rem;">
-    <img id="propic" v-bind:src="project.image" class="card-img-top img-fluid" style="height: 23rem; width: 19rem; object-fit: cover;">
+<div id="list" class="card text-light mt-2 mb-2 ms-2 me-2" style="width: 21rem; height: 35rem;">
+    <img id="propic" v-bind:src="project.image" class="card-img-top img" style="height: 23rem; object-fit: cover;">
     <div class="card-body">
     <h2 class="card-title">{{ project.name }}</h2>
     <p>{{ project.description }}</p>
@@ -22,74 +24,82 @@ export default {
        projects : [
       {
         id: "1",
-        image: "https://i.postimg.cc/YGNLZC5m/portfolio.png",
+        image: "https://i.postimg.cc/d1pR77nn/portfolio.png",
         name: "Mock Portfolio",
-        description: "",
+        description: "First attemp at making a simple personal portfolio",
         github: "",
         live: ""
 
       },
       {
         id: "2",
-        image: "https://i.postimg.cc/WFcJ5kHv/temp.png",
-        name: "Temperature Converter",
-        description: "",
+        image: "https://i.postimg.cc/TwpqYjjp/temp.png",
+        name: "Temp Converter",
+        description: "A temperature converter for converting °C to °F",
         github: "",
         live: ""
       },      
       {
         id: "3",
-        image: "https://i.postimg.cc/vDdWzpJV/calc.png",
+        image: "https://i.postimg.cc/ryDQ8TgQ/calc.png",
         name: "Calculator",
-        description: "",
+        description: "A simple working mathematical JS calculator",
         github: "",
         live: ""
       },
       {
         id: "4",
-        image: "https://i.postimg.cc/LJhf5R1r/BMI.png",
+        image: "https://i.postimg.cc/qvxGmvMM/BMI.png",
         name: "BMI Calculator",
-        description: "",
+        description: "A calculator that calculates you body mass index",
         github: "",
         live: "",
       },
       {
         id: "5",
-        image: "https://i.postimg.cc/grq3BgpB/to-do.png",
+        image: "https://i.postimg.cc/66FzqPmw/to-do.png",
         name: "To-do List",
-        description: "",
+        description: "A simple to-do list app for completing tasks",
         github: "",
         live: "",
       },
       {
         id: "6",
-        image: "https://i.postimg.cc/w1PNsP53/games.png",
+        image: "https://i.postimg.cc/W4pwxchm/games.png",
         name: "LJMA GAMES",
-        description: "",
+        description: "A team project creating a company website",
         github: "",
         live: "",
       },
       {
         id: "7",
-        image: "https://i.postimg.cc/t7yxPF6d/capecoast.png",
-        name: "CapeCoast Customs",
-        description: "",
+        image: "https://i.postimg.cc/c1tMpm4z/capecoast.png",
+        name: "Cape Customs",
+        description: "A website with a listing of cars that can be filtered ",
         github: "",
         live: "",
       },
       {
         id: "8",
-        image: "https://i.postimg.cc/Hj27tj0q/holiday.png",
-        name: "Holiday Destination",
-        description: "",
+        image: "https://i.postimg.cc/zXmS8gyG/holiday.png",
+        name: "Tokyo",
+        description: "My favourite holiday destination with a contact page",
         github: "",
         live: "",
       },
       {
         id: "9",
-        image: "https://i.postimg.cc/H82W4JfB/pokemon.png",
+        image: "https://i.postimg.cc/F1tfv3G5/pokemon.png",
         name: "Pokemon API",
-        description: "",
+        description: "An api that displays an array of different pokemon",
+        github: "",
+        live: "",
+      },
+      {
+        id: "10",
+        image: "https://i.postimg.cc/BnzsYqjK/deliciuous.png",
+        name: "Restaurant",
+        description: "An online restaurant website made using Bootstrap",
         github: "",
         live: "",
       }
@@ -99,12 +109,30 @@ export default {
 }
 </script>
 <style scoped>
-#propic {
-    aspect-ratio: 1;
+#project {
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+    text-decoration: underline 3px;
+    text-decoration-color: blue;
 }
-#propic:hover {
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#list{
+    background-color: black;
+}
+#list:hover {
+  box-shadow: -5px -5px 10px 5px blue, 5px 5px 10px 5px blue;
   transform: scale(1.1);
-  transition: all 1.5s linear;
-
+  transition: all 0.5s linear;
+  z-index: 20;
+}
+.card-title {
+    text-decoration: underline 3px;
+    text-decoration-color: blue;
 }
 </style> 

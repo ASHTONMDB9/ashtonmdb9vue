@@ -70,8 +70,13 @@
 .share {
   font-size: 20px;
 }
-.socials {
+.socials i {
   font-size: 30px;
+  color: blue;
+}
+.socials i:hover {
+  transform: scale(1.5);
+  transition: all 1.5 linear;
 }
 .socials a {
   margin-right: 10px;

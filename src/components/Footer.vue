@@ -29,6 +29,9 @@ export default {
 }
 </script>
 <style>
+footer {
+    margin-top: 30px;
+}
 .copyright-area{
   background: black;
   padding: 25px 0;

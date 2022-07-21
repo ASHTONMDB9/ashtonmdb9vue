@@ -81,25 +81,25 @@
 
 <div class="container mt-3">
   <div class="row">
-    <div class="col">
+    <div class="col-md">
     <div class="ui-widgets">
     <div class="ui-values">90%</div>
     <div class="ui-labels">Communication</div>
     </div>
 </div>
-    <div class="col">
+    <div class="col-md">
     <div class="ui-widgets">
     <div class="ui-values">75%</div>
     <div class="ui-labels">Problem-solving</div>
     </div>
 </div>
-    <div class="col">
+    <div class="col-md">
     <div class="ui-widgets">
     <div class="ui-values">80%</div>
     <div class="ui-labels">Creativity</div>
     </div>
 </div>
-  <div class="col">
+  <div class="col-md">
 <div class="ui-widgets">
     <div class="ui-values">85%</div>
     <div class="ui-labels">Teamwork</div>
@@ -123,7 +123,10 @@ export default {
   color: white;
 }
 .card:hover {
-    box-shadow: -5px -5px 10px 5px blue, 5px 5px 10px 5px blue;
+  box-shadow: -5px -5px 10px 5px blue, 5px 5px 10px 5px blue;
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+  z-index: 20;
 }
 .card-header {
     font-size: 20px;
@@ -161,6 +164,12 @@ h5 i {
     border-bottom-color: blue;
     text-align: center;
     box-sizing: border-box;
+}
+.ui-widgets:hover {
+  box-shadow: -5px -5px 10px 5px white, 5px 5px 10px 5px white;
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+  z-index: 20;
 }
 .ui-widgets .ui-values {
     top: 30px;
