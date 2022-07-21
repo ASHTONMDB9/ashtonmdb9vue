@@ -1,16 +1,25 @@
 <template>
-       <div class="footer-basic">
       <footer>
-          <ul class="list-inline">
-              <li class="list-inline-item"><router-link to="/">Home</router-link></li>
-              <li class="list-inline-item"><router-link to="/About">About</router-link></li>
-              <li class="list-inline-item"><router-link to="/Resume">Projects</router-link></li>
-              <li class="list-inline-item"><router-link to="/Projects">Resume</router-link></li>
-              <li class="list-inline-item"><router-link to="/Contact">Contact</router-link></li>
-          </ul>
-          <p class="copyright">Ashton Abrahams © 2022</p>
+          <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Ashton Abrahams Copyright &copy; 2022, All Right Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><router-link to="/">Home</router-link></li>
+                                <li><router-link to="/Contact">Contact</router-link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
       </footer>
-  </div> 
 </template>
 <script>
 export default {
@@ -20,37 +29,24 @@ export default {
 }
 </script>
 <style>
-.footer-basic {
-display: flex;
-justify-content: center;
-padding-top: 25px;   
-color:#4b4c4d;
+.copyright-area{
+  background: black;
+  padding: 25px 0;
 }
-.footer-basic ul {
-padding:0;
-list-style:none;
-text-align:center;
-font-size:18px;
-line-height:1.6;
-margin-bottom:0;
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
 }
-.footer-basic li {
-padding:0 10px;
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
 }
-.footer-basic ul a {
-color:inherit;
-text-decoration:none;
-opacity:0.8;
+.footer-menu li:hover a{
+  color: blue;
 }
-.footer-basic ul a:hover {
-opacity:1;
-color: white;
-}
-
-.footer-basic .copyright {
-text-align:center;
-font-size:13px;
-color:#aaa;
-margin-bottom:0;
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
 }    
 </style>

@@ -19,7 +19,7 @@
 
   <div class="container mt-4">
   <div class="row">
-        <div class="col">
+        <div class="col-md-6">
       <h2 class="head"><i class="fa-solid fa-briefcase"></i> Work Experience</h2>
       <section>
           <h3 class="info">Full-Stack Developer <span class="time">
@@ -53,7 +53,7 @@
       </section>
       </div>
 
-      <div class="col">
+      <div class="col-md-6">
       <section>
           <h2 class="head"><i class="fa-solid fa-handshake-simple"></i> Volunteer Work</h2>
         <h3 class="info">Volunteered at XO Africa Travel Agency<span class="time">
@@ -101,7 +101,7 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 .tabs {
   display: flex;
   justify-content: center;

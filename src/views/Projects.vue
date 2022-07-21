@@ -1,19 +1,17 @@
 <template>
-<div class="row">
-<div class="col-md-6">
-<div id="body" v-for="project of projects" :key="project.id">
-      <div class="card" style="width: 18rem;">
-  <img v-bind:src="project.image" alt="" />
-  <div class="card-body">
-    <h5 class="card-title">{{ project.name }}</h5>
-    <p class="card-text">{{ project.description }}</p>
-  </div>
-  <div class="card-body">
+<div class="d-flex">
+<div v-for="project of projects" :key="project.id">
+<div id="list" class="card mt-2 mb-2 ms-2 me-2 shadow-lg p-3 rounded" style="width: 21rem;">
+    <img id="propic" v-bind:src="project.image" class="card-img-top img-fluid" style="height: 23rem; width: 19rem; object-fit: cover;">
+    <div class="card-body">
+    <h2 class="card-title">{{ project.name }}</h2>
+    <p>{{ project.description }}</p>
+    <div class="card-footer d-flex mt-3">
     <a href="#" class="card-link">View Code</a>
     <a href="#" class="card-link">View Project</a>
   </div>
-</div>
-</div>
+    </div>
+    </div>
 </div>
 </div>
 </template>
@@ -24,7 +22,7 @@ export default {
        projects : [
       {
         id: "1",
-        image: "",
+        image: "https://i.postimg.cc/YGNLZC5m/portfolio.png",
         name: "Mock Portfolio",
         description: "",
         github: "",
@@ -33,7 +31,7 @@ export default {
       },
       {
         id: "2",
-        image: "",
+        image: "https://i.postimg.cc/WFcJ5kHv/temp.png",
         name: "Temperature Converter",
         description: "",
         github: "",
@@ -41,7 +39,7 @@ export default {
       },      
       {
         id: "3",
-        image: "",
+        image: "https://i.postimg.cc/vDdWzpJV/calc.png",
         name: "Calculator",
         description: "",
         github: "",
@@ -49,7 +47,7 @@ export default {
       },
       {
         id: "4",
-        image: "",
+        image: "https://i.postimg.cc/LJhf5R1r/BMI.png",
         name: "BMI Calculator",
         description: "",
         github: "",
@@ -57,7 +55,7 @@ export default {
       },
       {
         id: "5",
-        image: "",
+        image: "https://i.postimg.cc/grq3BgpB/to-do.png",
         name: "To-do List",
         description: "",
         github: "",
@@ -65,7 +63,7 @@ export default {
       },
       {
         id: "6",
-        image: "",
+        image: "https://i.postimg.cc/w1PNsP53/games.png",
         name: "LJMA GAMES",
         description: "",
         github: "",
@@ -73,7 +71,7 @@ export default {
       },
       {
         id: "7",
-        image: "",
+        image: "https://i.postimg.cc/t7yxPF6d/capecoast.png",
         name: "CapeCoast Customs",
         description: "",
         github: "",
@@ -81,7 +79,7 @@ export default {
       },
       {
         id: "8",
-        image: "",
+        image: "https://i.postimg.cc/Hj27tj0q/holiday.png",
         name: "Holiday Destination",
         description: "",
         github: "",
@@ -89,8 +87,8 @@ export default {
       },
       {
         id: "9",
-        image: "",
-        name: "API",
+        image: "https://i.postimg.cc/H82W4JfB/pokemon.png",
+        name: "Pokemon API",
         description: "",
         github: "",
         live: "",
@@ -101,27 +99,12 @@ export default {
 }
 </script>
 <style scoped>
-#body {
-  background-color: #000000;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 25px;
+#propic {
+    aspect-ratio: 1;
 }
-.card-display {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 50px;
-}
-#cards {
-  margin-top: 3%;
-  margin-right: auto;
-  margin-left: auto;
-  box-shadow: 1px 1px 2px rgb(0, 0, 0);
+#propic:hover {
+  transform: scale(1.1);
+  transition: all 1.5s linear;
+
 }
 </style> 

@@ -12,7 +12,7 @@
 
 <div class="container">
 <div class="row">
-    <div class="col">
+    <div class="col-md">
         <div class="card text-light bg-black mb-4 mt-2">
   <div class="card-header text-center">HTML</div>
   <div class="card-body">
@@ -22,7 +22,7 @@
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col-md">
         <div class="card text-light bg-black mb-4 mt-2">
   <div class="card-header text-center">CSS</div>
   <div class="card-body">
@@ -32,7 +32,7 @@
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col-md">
         <div class="card text-light bg-black mb-4 mt-2">
   <div class="card-header text-center">MySQL</div>
   <div class="card-body">
@@ -44,7 +44,7 @@
 </div>
 
 <div class="row">
-    <div class="col">
+    <div class="col-md">
         <div class="card text-light bg-black mb-2">
   <div class="card-header text-center">BOOTSTRAP</div>
   <div class="card-body">
@@ -54,7 +54,7 @@
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col-md">
         <div class="card text-light bg-black mb-2">
   <div class="card-header text-center">JAVASCRIPT</div>
   <div class="card-body">
@@ -64,7 +64,7 @@
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col-md">
         <div class="card text-light bg-black mb-2">
   <div class="card-header text-center">VUE JS</div>
   <div class="card-body">
