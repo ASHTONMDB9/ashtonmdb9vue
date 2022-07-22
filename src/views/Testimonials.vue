@@ -12,9 +12,9 @@
 </div>
 
 <div class="container-fluid">
-<div v-for="testimonial of testimonials" :key="testimonial.id">
-<div id="list" class="card text-light mt-2 mb-2 ms-2 me-2" style="width: 21rem; height: 39rem;">
-    <img id="propic" v-bind:src="testimonial.image" class="card-img-top img" style="height: 23rem; object-fit: cover;">
+<div id="tests" class="" v-for="testimonial of testimonials" :key="testimonial.id">
+<div id="list" class="card text-light mt-5 ms-2 me-2" style="width: 21rem; height: 41rem;">
+    <img id="propic" v-bind:src="testimonial.image" class="card-img-top img" style="height: 25rem; object-fit: cover;">
     <div class="card-body">
     <h2 class="card-title text-center">{{ testimonial.name }}</h2>
     <p class="text-center">{{ testimonial.testimony }}</p>
@@ -56,7 +56,7 @@ export default {
         id: "4",
         image: "https://i.postimg.cc/j2tzjMWQ/Mika-Rinquest-removebg-preview.png",
         name: "Mika Rinquest",
-        testimony: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nesciunt eius eligendi autem pariatur sapiente est consequatur ipsum. Eaque magni esse voluptas nam ullam exercitationem illum, optio repellat atque nihil.",
+        testimony: "Once Ashton starts working he does not allow for any distractions. He fits in well with others and has the potential to be a valuable member of any team.",
         role: "Colleague",
 
       },
@@ -66,7 +66,14 @@ export default {
         name: "Zoe Van Der Schyff",
         testimony: "Ashton is one of the smartest, hard-working people I know. He tries over and over until he gets it right. He will strive until he gets what he needs, and he will do what he needs to do to get things done.",
         role: "Colleague",
-      }
+      },      
+      {
+        id: "6",
+        image: "https://i.postimg.cc/vmFMDHFM/Chanique-1-removebg-preview.png",
+        name: "Chanique Chelsea Mansoor",
+        testimony: "Ashton is a true example of a leader and strives in everything he does, his personality and persona is something I could only aspire to have. Wishing him all the best with his future as a developer.",
+        role: "Colleague",
+      },
     ]
     }
   }
@@ -81,13 +88,13 @@ export default {
   color: white;
 }
 .container-fluid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 160px;
 }
 #list{
-    background-color: black;
+  background-color: black;  
 }
 #list:hover {
   box-shadow: -5px -5px 10px 5px blue, 5px 5px 10px 5px blue;
@@ -96,7 +103,8 @@ export default {
   z-index: 20;
 }
 .card-title {
-    text-decoration: underline 3px;
-    text-decoration-color: blue;
+  text-decoration: underline 3px;
+  text-decoration-color: blue;
 }
+
 </style>

@@ -3,6 +3,7 @@
         <div class="row">
         <div class="col-md-7">
             <h1 id="contact">Contact Me</h1>
+            <img id="avatar" class="img-fluid" src="https://i.postimg.cc/3xxzjYqM/ash2-removebg-preview-contact.png">
             <div class="social">
                         <a href="https://www.facebook.com/profile.php?id=100083321873494" target="_blank"><i class="fa fa-facebook"></i></a>
                         <a href="https://www.instagram.com/ashton.m_db9/" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -20,7 +21,7 @@
                     </form>
                 </div>
                 <div class="col-md-5">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2675928504113!2d18.490509915821583!3d-33.985659832565865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1658296857775!5m2!1sen!2sza" width="700" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2675928504113!2d18.490509915821583!3d-33.985659832565865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1658296857775!5m2!1sen!2sza" width="700" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 </div>
     </div>
@@ -36,7 +37,6 @@ export default {
     text-align: center;
     display: flex;
     flex-direction: column;
-
 }
 #contact {
     color: white;

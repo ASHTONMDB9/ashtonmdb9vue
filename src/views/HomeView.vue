@@ -25,7 +25,7 @@ export default {
   text-align: center;
 }
 .container {
-  margin-top: 400px;
+  margin-top: 350px;
 }
 .container h1:nth-child(1) {
   color: white;
