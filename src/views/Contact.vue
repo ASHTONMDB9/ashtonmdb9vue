@@ -12,10 +12,10 @@
                     </div>
                     <p class="text text-light mt-4">If you have something you want to discuss, contact me or leave your details.</p>
                     <form action="https://formspree.io/f/mzboygza" method="POST">
-                        <input type="text" name="name" placeholder=" your name">
-                        <input type="email" name="email" placeholder="your email">
+                        <input type="text" name="name" required placeholder=" your name">
+                        <input type="email" name="email" required placeholder="your email">
                         <input type="tel" name="phone" placeholder="your phone">
-                        <input type="text" name="subject" placeholder="subject">
+                        <input type="text" name="subject" required placeholder="subject">
                         <textarea placeholder="your message"></textarea>
                         <button>send</button>
                     </form>
