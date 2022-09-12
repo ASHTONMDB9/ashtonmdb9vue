@@ -64,10 +64,11 @@ export default {
       },
       {
         id: "6",
-        image: "https://i.postimg.cc/W4pwxchm/games.png",
-        name: "LJMA GAMES",
-        description: "A team project creating a company website",
-        github: "https://github.com/ASHTONMDB9/ljmagames",
+        image: "https://i.postimg.cc/mZFFd0nM/phantom.png",
+        name: "PhantomRealm",
+        description: "A project creating a company website",
+        github: "https://github.com/ASHTONMDB9/CAPSTONE-PhantomRealm-Frontend",
+        live: "https://capstone-79884.firebaseapp.com/"
       },
       {
         id: "7",
@@ -75,7 +76,7 @@ export default {
         name: "Cape Customs",
         description: "A website with a listing of cars that can be filtered ",
         github: "https://github.com/ASHTONMDB9/WestCoastCustoms",
-        live: "https://wwcaaautos.netlify.app",
+        live: "https://capecoastcustoms.netlify.app",
       },
       {
         id: "8",
@@ -87,10 +88,11 @@ export default {
       },
       {
         id: "9",
-        image: "https://i.postimg.cc/F1tfv3G5/pokemon.png",
-        name: "Pokemon API",
-        description: "An api that displays an array of different pokemon",
-        live: "https://warm-melomakarona-130a51.netlify.app/",
+        image: "https://i.postimg.cc/c1Vk2GLN/ecom.png",
+        name: "XYZ Tech",
+        description: "A team project creating a company website",
+        github: "https://github.com/ASHTONMDB9/EOMP",
+        live: "https://ecommerce-a994b.firebaseapp.com/#/",
       },
       {
         id: "10",
